@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</head>
+<body>
+    <div id="createList">
+        <h1>Artel Employees System Manager</h1>
+        <input type="text" id='listName' placeholder="Enter the new Managment" />
+        <button onclick="createList()">Create</button>
+    </div>
+    <div id="employeeList" style="display:none;">
+        <h1 id="title">Employees List</h1>
+        <input id="itemName" type="text" placeholder="New worker" />
+        <button onclick="addItem()">Add</button>
+        <ul id="items">
+
+        </ul>
+    </div>
+</body>
+</html>
